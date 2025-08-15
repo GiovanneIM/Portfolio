@@ -1,0 +1,23 @@
+[
+    {
+        "inicio": 2020,
+        "final": 2022,
+        "assunto": "Ensino Médio",
+        "local": "CEFSA - Centro Educacional Fundação Salvador Arena",
+        "imagem": "./imagens/logos/cefsa.png"
+    },
+    {
+        "inicio": "1/2025",
+        "final": "1/2026",
+        "assunto": "Técnico em Desenvolvimento de Sistemas",
+        "local": "SENAI São Caetano do Sul",
+        "imagem": "./imagens/logos/senai.png"
+    },
+    {
+        "inicio": 2024,
+        "final": 2029,
+        "assunto": "Bacharelado em Engenharia de Computação",
+        "local": "FESA - Faculdade Engenheiro Salvador Arena",
+        "imagem": "./imagens/logos/fesa.png"
+    }
+]

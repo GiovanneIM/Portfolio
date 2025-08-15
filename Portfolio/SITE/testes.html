@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading Spinner</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f4;
+    }
+
+    .spinner {
+      width: 60px;
+      height: 60px;
+      border: 6px solid #ccc;
+      border-top-color: #3498db; /* Cor do spinner */
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="spinner"></div>
+
+</body>
+</html>
+
+<!-- <html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Círculo Progresso Real</title>
+  <style>
+    :root {
+      --percent: 90; /* Altere isso para o valor desejado (0 a 100) */
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    .circle-container {
+      position: relative;
+      width: 150px;
+      height: 150px;
+    }
+
+    .circle-bg {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: conic-gradient(
+        #3498db calc(var(--percent) * 1%), 
+        #ddd 0%
+      );
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .circle-inner {
+      width: 110px;
+      height: 110px;
+      background: white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: #3498db;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="circle-container">
+    <div class="circle-bg">
+      <div class="circle-inner">
+        75%
+      </div>
+    </div>
+  </div>
+
+</body>
+</html> -->
+
+
+<!-- <html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Círculo Formado por Abertura de Ângulo</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .circle {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: conic-gradient(#3498db 0deg, #3498db 0deg, transparent 0deg 360deg);
+      transition: background 0.1s linear;
+    }
+
+    .arm {
+      position: absolute;
+      width: 100px;
+      height: 2px;
+      background: black;
+      top: 50%;
+      left: 50%;
+      transform-origin: left center;
+    }
+
+    .arm.fixed {
+      transform: rotate(0deg);
+    }
+
+    .arm.moving {
+      transform: rotate(0deg);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="circle">
+    <div class="arm fixed"></div>
+    <div class="arm moving" id="moving-arm"></div>
+  </div>
+
+  <script>
+    const circle = document.querySelector('.circle');
+    const movingArm = document.getElementById('moving-arm');
+
+    let angle = 0;
+    const maxAngle = 360;
+    const speed = 2; // graus por frame
+
+    function animate() {
+      if (angle <= maxAngle) {
+        // Atualiza a "área pintada"
+        circle.style.background = `conic-gradient(#3498db 0deg, #3498db ${angle}deg, transparent ${angle}deg 360deg)`;
+
+        // Move o braço giratório
+        movingArm.style.transform = `rotate(${angle}deg)`;
+
+        angle += speed;
+        requestAnimationFrame(animate);
+      }
+    }
+
+    animate();
+  </script>
+
+</body>
+</html> -->
+
+

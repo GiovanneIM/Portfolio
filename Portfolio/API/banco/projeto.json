@@ -1,0 +1,26 @@
+[
+    {
+        "inicio": "Outubro de 2024",
+        "final": "Novembro de 2024",
+        "assunto": "Calculadora Gráfica de Integrais",
+        "local": "FESA - Faculdade Engenheiro Salvador Arena",
+        "descricao": "Calculadora gráfica desenvolvida em C# utilizando o Windown Form no Visual Studio para calcular integrais de funções de uma variável.<br>Utilizado: C#, Visual Studio.",
+        "link": "https://github.com/GiovanneIM/CalculadoraIntegrais"
+    },
+    {
+        "inicio": "Maio de 2025",
+        "final": "Junho de 2025",
+        "assunto": "Site de Gerenciamento de Aluguel de Veículos",
+        "local": "SENAI São Caetano do Sul",
+        "descricao": "Projeto integrador para a conclusão do 1º semestre do curso de Desenvolvimento de sistemas.<br>Utilizado: Node.js, HTML, CSS.",
+        "link": "https://github.com/GiovanneIM/ProjetoIntegrador"
+    },
+    {
+        "inicio": "Maio de 2025",
+        "final": "Junho de 2025",
+        "assunto": "Portfólio",
+        "local": "SENAI São Caetano do Sul",
+        "descricao": "Criação de um portfólio para apresentação pessoal.<br>Utilizado: Node.js, HTML, CSS.",
+        "link": "https://github.com/GiovanneIM/ProjetoIntegrador"
+    }
+]

@@ -1,0 +1,78 @@
+[
+    {
+        "categoria": "Idiomas",
+        "habilidades": [
+            {
+                "descricao": "Inglês Intermediário",
+                "imagem": "Ingles"
+            }
+        ]
+    },
+    {
+        "categoria": "Programação",
+        "habilidades": [
+            {
+                "descricao": "Python",
+                "imagem": "Python"
+            },
+            {
+                "descricao": "C#",
+                "imagem": "CSharp"
+            }, 
+            {
+                "descricao": "JavaScript",
+                "imagem": "JS"
+            }, 
+            {
+                "descricao": "C",
+                "imagem": "C"
+            }, 
+            {
+                "descricao": "HTML",
+                "imagem": "HTML"
+            }, 
+            {
+                "descricao": "CSS",
+                "imagem": "CSS"
+            }
+        ]
+    },
+    
+    {
+        "categoria": "Aplicações e Ferramentas",
+        "habilidades": [
+            {
+                "descricao": "Excel",
+                "imagem": "Excel"
+            },
+            {
+                "descricao": "Power BI",
+                "imagem": "PowerBI"
+            },
+            {
+                "descricao": "Word",
+                "imagem": "Word"
+            },
+            {
+                "descricao": "PowerPoint",
+                "imagem": "PowerPoint"
+            },
+            {
+                "descricao": "Visual Studio",
+                "imagem": "VS"
+            },
+            {
+                "descricao": "Visual Studio Code",
+                "imagem": "VSCode"
+            },
+            {
+                "descricao": "Jupyter",
+                "imagem": "Jupyter"
+            },
+            {
+                "descricao": "GitHub",
+                "imagem": "GitHub"
+            }
+        ]
+    }
+]
