@@ -186,12 +186,13 @@ header {
 /* SEÇÕES */
 .secao {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 7vh;
 }
 
 .hero_section {
     padding: 0;
+    background: linear-gradient(white, #a3bdf1);
 }
 
 .hero_texto {
@@ -206,6 +207,7 @@ header {
     width: 50vw;
     font-size: calc((50vw * 0.3) / (14 * 0.6));
     white-space: nowrap;
+
 }
 
 .hero_nome {
@@ -280,11 +282,12 @@ header {
 
 
 .secaocor1 {
-    background-color: #7ca0ea99;
+    /* background-color: #7ca0ea99; */
+    background: linear-gradient(#7ca0ea99, #a3bdf1);
 }
 
 .secaocor2 {
-    background-color: #a3bdf1;
+    background: linear-gradient(#a3bdf1, #7ca0ea99);
 }
 
 .secaocor3 {
@@ -426,6 +429,7 @@ header {
     /* animation: seta 2.5s linear; */
     justify-content: space-evenly;
     z-index: 100;
+    border-radius: 15px;
 }
 
 @keyframes seta {
@@ -436,7 +440,9 @@ header {
 
 /* HABILIDADES */
 .painel_habilidade {
-    height: 80vh;
+    /* height: 80vh; */
+    height: fit-content;
+    gap: 2vh;
     padding: 0 3vw;
     display: flex;
     flex-direction: column;
