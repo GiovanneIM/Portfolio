@@ -2,4 +2,4 @@
 
 --
 
-<div style="width:100%"></div>
+<div style="width:100%; background-color:orange;">teste</div>
